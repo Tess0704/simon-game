@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>SIMON GAME</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/4.0.0-alpha.1/css/bootstrap-switch.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div class = "ocircle">
+  <div class = "line">
+    <div id="1" onclick="playTune(1)" class="fan fan-tl  green inline" >
+    </div>
+    <div id="2" onclick="playTune(2)"  class="fan fan-tr red inline" >
+    </div>
+  </div>
+  <div class = "line">
+    <div id="3" onclick="playTune(3)"  class="fan fan-bl yellow inline" >
+      
+    </div>
+    <div id="4" onclick="playTune(4)"  class="fan fan-br blue inline" >
+      
+    </div>
+  </div>
+  
+  <div class = "icircle">
+   <h3>Simon</h3> 
+    <div class="inline">
+      <h1 class="count">--</h1>
+      <h3 class="label">count</h3>
+    </div>
+    <div class="inline">
+      <div class="start unclickable" onclick="reset()">           </div>
+      <h3 class="label">start</h3>
+    </div>
+    <div class="inline">
+      <div class="strict" onclick="toggleStrict()">
+        <div class="indic">           </div>
+      </div>
+      <h3 class="label">strict</h3>
+      
+    </div>
+   
+<div class = "switch">
+  <p class="label inline">OFF</p>
+  <div class="switch-box inline" onclick="togglePwr()">
+    <div class="switch-slot">     </div>
+  </div>
+  <p class="label inline">ON</p>
+  
+</div>
+ 
+</div>
+
+
+
+  
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/4.0.0-alpha.1/js/bootstrap-switch.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
